@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags em HTML</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: gainsboro;
+        }
+        header{
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            background-color: aliceblue;
+
+        }
+
+        nav{
+            background-color: beige;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            background-color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(97, 97, 85);
+
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px 0px;
+            
+        }
+        article > aside{
+            background-color: rgb(159, 164, 170);
+            
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+
+    </header>
+    
+    <main>
+        <section id="Assuntos"></section>
+        <p>Esporte - Cultura - Tecnologia</p>
+        <section id="Noticias"></section>
+        <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda quod, tempore non enim reiciendis, nostrum officiis cum placeat ratione, consequuntur voluptatem. Esse accusamus illo veritatis, expedita quidem aperiam iusto.</p>
+            <aside>
+                <p>Artigo escrito por Rodrigo Carvalho</p>
+
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pela RC Assessoria</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
