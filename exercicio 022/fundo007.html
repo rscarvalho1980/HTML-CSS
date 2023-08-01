@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+
+    <style>
+        #container{
+            height: 97vh;
+            background-color: plum;
+            padding: 10px;
+            
+            background-image: url(imgens/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #conteudo{
+            height: 200px;
+            width: 400px;
+            background-color:yellow ;
+            position: absolute;
+           
+            left: 50%;
+            top: 50%;
+            background-image: url(imgens/target001.png);
+            background-size: 100% 100%;
+            /* Usar a opção: [translate],  para mexer no componente para qualquer direção.*/
+
+            transform: translate(-200px, -100px);
+
+        }   
+    </style>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+
+    </section>
+</head>
+<body>
+    
+</body>
+</html>
