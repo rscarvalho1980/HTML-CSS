@@ -7,16 +7,22 @@
 html, body{
     background-color: darkgrey;
     min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+
 
 header{
     background-color: black;
     color: aliceblue;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 header>h1{
     padding: 50px;
     font-variant: small-caps;
+    font-size: 5vw;
 
 }
 
@@ -42,6 +48,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family:'Times New Roman', Times, serif
+    font-size: 3vw;
 
 
 }
@@ -54,11 +62,19 @@ section.normal{
 section.image{
     background-color: rgba(0, 0, 0, 0.573);
     color: aliceblue;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    display: inline-block;
+
+
+
 }
 
 section.image > p {
     background-color: rgba(0, 0, 0, 0.737);
     width: 400px;
+    padding-left: 20px;
+    
 }
 
 footer{
