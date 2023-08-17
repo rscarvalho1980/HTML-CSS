@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+
+        td.numero{
+            text-align: right;
+        }
+        .numero{
+            text-align: center;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        thead, tfoot{
+            background-color: rgb(141, 137, 137);
+            color: aliceblue;
+            
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: black;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightblue;
+        }
+
+        caption{
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA DE TABELAS GRANDES:
+            T HEAD ( TR, TD, TH)
+            T BODY ( TR, TD, TH)
+            T FOOT ( TR, TD, TH)
+    -->
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th> ESTADO</th>
+                <th style="width: 50px;"> POPULAÇÃO</th>
+            </tr>
+        </thead>
+
+            <tbody>
+                <tr>
+                    <td> SÃO PAULO</td>
+                    <td class="numero"> 44 420 459</td>
+                </tr>
+
+                <tr>
+                    <td> MINAS GERAIS</td>
+                    <td class="numero">20 538 718</td>
+                </tr>
+
+                <tr>
+                    <td> RIO DE JANEIRO</td>
+                    <td class="numero">16 054 524</td>
+                </tr>
+
+                <tr>
+                    <td>BAHIA</td>
+                    <td class="numero">14 136 417</td>
+                </tr>
+
+                <tr>
+                    <td> PARANÁ</td>
+                    <td class="numero"> 11 443 208</td>
+
+                </tr>  
+                
+                <tr>
+                    <td>RIO GRANDE DO SUL</td>
+                    <td class="numero">10 880 506</td>
+                </tr>
+
+                <tr>
+                    <td>PERNAMBUCO</td>
+                    <td class="numero">9 058 155</td>
+
+                </tr>
+
+                <tr>
+                    <td>CEARÁ</td>
+                    <td class="numero">8 791 688</td>
+                </tr>
+                <tr>
+                    <td>PARÁ</td>
+                    <td class="numero">8 116 132</td>
+                </tr>
+                <tr>
+                    <td>SANTA CATARINA</td>
+                    <td class="numero">7 609 601</td>
+                </tr>
+                <tr>
+                    <td>GOIÁS</td>
+                    <td class="numero">7 055 228</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>MARANHÃO</td>
+                    <td class="numero">6 775 152</td>
+
+                </tr>
+                
+                 <tr>
+                <td>PARAÍBA</td>
+                <td class="numero">3 974 495</td>
+                 </tr>
+
+                 <tr>
+                    <td>AMAZONAS</td>
+                    <td class="numero">3 941 175</td>
+                 </tr>
+
+                 <tr>
+                    <td>ESPIRITO SANTO</td>
+                    <td class="numero">3 833 486</td>
+                 </tr>
+
+                 <tr>
+                    <td>MATO GROSSO</td>
+                    <td class="numero">3 658 813</td>
+                 </tr>
+                 <tr>
+                    <td>RIO GRANDE DO SUL</td>
+                    <td class="numero">3 302 406</td>
+                 </tr>
+
+                 <tr>
+                    <td>PIAUÍ</td>
+                    <td class="numero">3 269 200</td>
+                 </tr>
+
+                 <tr>
+                    <td>ALAGOAS</td>
+                    <td class="numero">3 127 511</td>
+                 </tr>
+
+                 <tr>
+                    <td>DISTRITO FEDERAL</td>
+                    <td class="numero">2 817 068</td>
+                 </tr>
+
+                <tr>
+                    <td>MATO GROSSO DO SUL</td>
+                    <td class="numero">2 756 700</td>
+                </tr>
+
+                <tr>
+                    <td>SERGIPE</td>
+                    <td class="numero">2 209 558</td>
+                </tr>
+
+                <tr>
+                    <td>RONDÔNIA</td>
+                    <td class="numero">1 581 016</td>
+
+                </tr>
+
+                <tr>
+                    <td>TOCANTINS</td>
+                    <td class="numero">1 511 459</td>
+                </tr>
+
+                <tr>
+                    <td>ACRE</td>
+                    <td class="numero">830 026</td>
+                </tr>
+
+                <tr>
+                    <td>AMAPÁ</td>
+                    <td class="numero">733 508</td>
+                </tr>
+
+                <tr>
+                    <td>RORAIMA</td>
+                    <td class="numero">636 303</td>
+                </tr> 
+                
+                </tr>
+            </tbody>
+
+        <tfoot>
+            <tr>
+                <th> TOTAL DE HABITANTES</th>
+                <td class="numero"> <strong>210.147.125</strong> </td>
+            </tr>
+        </tfoot> 
+
+        
+    </table>
+    
+</body>
+</html>
